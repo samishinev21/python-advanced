@@ -6,6 +6,6 @@ for n in list:
     stack.append(n)
     
 while len(stack) > 0:
-    result += stack.pop()
+    result.append(stack.pop())
 
 print(" ".join(result))
