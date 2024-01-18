@@ -13,7 +13,7 @@ for _ in range(n):
         cars_in_park.remove(number)
 
 if len(cars_in_park) <= 0:
-    print("Parking Lot is empty")
+    print("Parking Lot is Empty")
 else:   
     for car in cars_in_park:
         print(car)
