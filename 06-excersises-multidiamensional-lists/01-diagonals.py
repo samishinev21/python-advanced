@@ -16,5 +16,5 @@ for i in range(n):
         if j == n - 1 - i:
             secondary.append(matrix[i][j])
 
-print(f"Primary diagonal: {', '.join(primary)}. Sum: {sum(primary)}")
-print(f"Secondary diagonal: {', '.join(secondary)}. Sum: {sum(secondary)}")
+print(f"Primary diagonal: {', '.join(map(str, primary))}. Sum: {sum(primary)}")
+print(f"Secondary diagonal: {', '.join(map(str, secondary))}. Sum: {sum(secondary)}")
