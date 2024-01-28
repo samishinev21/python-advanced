@@ -9,7 +9,5 @@ for row in range(rows):
     for col in range(cols):
         matrix[row].append(f"{chr(A_ASCII + row)}{chr(A_ASCII + col + row)}{chr(A_ASCII + row)}")
 
-    
-
 for row in matrix:
     print(" ".join(row))
