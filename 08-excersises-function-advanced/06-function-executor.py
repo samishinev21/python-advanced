@@ -25,7 +25,12 @@ def make_lower(*strings):
     result = tuple(s.lower() for s in strings)
     return result
 
-print(func_executor(
-    (make_upper, ("Python", "softUni")),
-    (make_lower, ("PyThOn",))))
+# print(func_executor(
+#     (make_upper, ("Python", "softUni")),
+#     (make_lower, ("PyThOn",))))
 
+print(func_executor((lambda a, b: a * b, (2, 4))))
+
+my_list = {"camember": 5, "blue cheese": 10, "bulgarian cheese": 2}
+
+print(sorted(my_list.items(), key=lambda item: (item[1])))
