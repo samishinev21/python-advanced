@@ -9,4 +9,4 @@ for i in range(len(numbers_list)):
     elif 5 < number <= 10:
         result /= number
 
-print(result)
+print(float(result))
