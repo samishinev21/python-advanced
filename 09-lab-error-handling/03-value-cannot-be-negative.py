@@ -3,9 +3,6 @@ class ValueCannotBeNegative(Exception):
     pass
 
 for i in range(5):
-    try:
-        number = int(input())
-        if number < 0:
-            raise ValueCannotBeNegative
-    except ValueCannotBeNegative as error:
-        print(error)
+    number = int(input())
+    if number < 0:
+        raise ValueCannotBeNegative
