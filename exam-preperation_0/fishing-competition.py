@@ -19,8 +19,6 @@ for row in range(rows):
 
         matrix[row].append(char)
 
-
-print(matrix)
 while True:
     command = input()
 
@@ -40,8 +38,8 @@ while True:
         if sign.isnumeric():
             tons += int(sign)
         elif sign == "W":
-            print(f"You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
-                  "Last coordinates od the ship: [{current_row},{current_col}]")
+            print("You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
+                  f"Last coordinates of the ship: [{current_row},{current_col}]")
             dead = True
             break
 
@@ -56,8 +54,8 @@ while True:
         if sign.isnumeric():
             tons += int(sign)
         elif sign == "W":
-            print(f"You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
-                  "Last coordinates od the ship: [{current_row},{current_col}]")
+            print("You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
+                  f"Last coordinates of the ship: [{current_row},{current_col}]")
             dead = True
             break
 
@@ -73,8 +71,8 @@ while True:
         if sign.isnumeric():
             tons += int(sign)
         elif sign == "W":
-            print(f"You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
-                  "Last coordinates od the ship: [{current_row},{current_col}]")
+            print("You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
+                  f"Last coordinates of the ship: [{current_row},{current_col}]")
             dead = True
             break
     
@@ -89,8 +87,8 @@ while True:
         if sign.isnumeric():
             tons += int(sign)
         elif sign == "W":
-            print(f"You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
-                  "Last coordinates od the ship: [{current_row},{current_col}]")
+            print("You fell into a whirlpool! The ship sank and you lost the fish you caught. " +
+                  f"Last coordinates of the ship: [{current_row},{current_col}]")
             dead = True
             break
     
